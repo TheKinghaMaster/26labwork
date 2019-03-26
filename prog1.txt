@@ -1,0 +1,11 @@
+#include<iostream.h>
+#include<conio.h>
+
+int res;
+void main()
+{
+clrscr();
+int sum(int,int);
+int sub(int,int);
+int mul(int,int);
+int a,b,m,su,s;

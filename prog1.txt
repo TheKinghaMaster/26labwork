@@ -17,4 +17,20 @@ su=sub(a,b);
 m=mul(a,b);
 cout<<“Sum:”<<s<<“nSubtraction:”<<su<<“nMultiplication:”<<m;
 getch();
+sum(int a,int b)
+{
+res=a+b;
+return(res);
 }
+
+sub(int a,int b)
+{
+res=a-b;
+return(res);
+}
+
+mul(int a,int b)
+{
+res=a*b;
+return(res);
+}}

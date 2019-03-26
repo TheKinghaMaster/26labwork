@@ -23,14 +23,4 @@ res=a+b;
 return(res);
 }
 
-sub(int a,int b)
-{
-res=a-b;
-return(res);
 }
-
-mul(int a,int b)
-{
-res=a*b;
-return(res);
-}}

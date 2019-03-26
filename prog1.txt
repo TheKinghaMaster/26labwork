@@ -2,8 +2,7 @@
 #include<conio.h>
 
 int res;
-void main()
-{
+void main(){
 clrscr();
 int sum(int,int);
 int sub(int,int);
@@ -19,8 +18,4 @@ cout<<“Sum:”<<s<<“nSubtraction:”<<su<<“nMultiplication:”<<m;
 getch();
 sum(int a,int b)
 {
-res=a+b;
-return(res);
-}
 
-}

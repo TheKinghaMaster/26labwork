@@ -9,3 +9,12 @@ int sum(int,int);
 int sub(int,int);
 int mul(int,int);
 int a,b,m,su,s;
+cout<<“Enter two numbers:”;
+cin>>a>>b;
+
+s=sum(a,b);
+su=sub(a,b);
+m=mul(a,b);
+cout<<“Sum:”<<s<<“nSubtraction:”<<su<<“nMultiplication:”<<m;
+getch();
+}
